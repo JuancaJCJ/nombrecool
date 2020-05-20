@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@600&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar-color {
+  background-color: #ccf0e1;
+}
+
+nav, h1 {
+  font-family: 'Muli', sans-serif;
+}
+
+.nav-link {
+  color: #63707e;
+  font-size: 18px;
+}
+.nav-link:hover{
+  color: #f76a8c;
+}
+
+.img-logo{
+  width: 150px;
+  height: auto;
+}
+
+.input-search {
+  width: 400px !important;
+}
+
+.btn-search {
+  font-family: 'Muli', sans-serif;
+  color: #fff !important;
+  background-color: #f76a8c !important;
+}
+
+.btn-search:hover {
+  color: #63707e !important;
+  background-color: #f8dc88 !important;
+}
+
+.bg-card {
+  font-family: 'Muli', sans-serif;
+  background-color: #f76a8c !important;
+}
+
+.bg-card h5 {
+  color: #fff;
+}
+
+.btn-recipe {
+  background-color: #ccf0e1 !important;
+}
+
+.btn-recipe:hover {
+  color: #63707e !important;
+  background-color: #f8dc88 !important;
 }
