@@ -54,10 +54,13 @@ const Carousell = (props) => {
     const styl = {
         image: {
             margin: 15,
-            width: 700,
-            height: 400,
+            width: 1200,
+            height: 500,
             border: '5px solid pink',
             borderRadius: 10
+        },
+        font:{
+            size:5
         }
     };
     const slides = items.map((item) => {
@@ -67,6 +70,7 @@ const Carousell = (props) => {
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
                 key={item.src}
+                
             >
                     <img src={item.src}  style={styl.image} className="rounded mx-auto d-block img-thumbnail" className="img-fluid" alt={item.altText} />
                 <CarouselCaption captionText={item.caption} captionHeader={item.header} />
@@ -76,7 +80,7 @@ const Carousell = (props) => {
     });
 
     return (
-        <Carousel
+        <Carousel id="boton"
             activeIndex={activeIndex}
             next={next}
             previous={previous}

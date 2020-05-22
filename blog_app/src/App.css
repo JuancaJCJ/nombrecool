@@ -51,6 +51,7 @@ nav, h1 {
 .nav-link {
   color: #63707e;
   font-size: 18px;
+  cursor: pointer;
 }
 .nav-link:hover{
   color: #f76a8c;
@@ -97,4 +98,25 @@ nav, h1 {
   object-fit: scale-down;
   height: 50vh;
   width: 100%;
+}
+#cennter{
+margin-left: 7rem;
+}
+#center{
+  margin-left: 7rem;
+  margin-top: 1rem;
+  color:white;
+}
+#header{
+  background-color: #ccf0e1;
+  color: #f76a8c;
+}
+#fondo{
+  background-image: url(./images/tropical_coctel.jpg);
+}
+#foot{
+  background-color: #b6b5bb;
+}
+image{
+  width: 5rem;
 }
