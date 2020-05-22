@@ -1,17 +1,18 @@
   
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
-import Blog from './components/Blog';
-// import ModalRecipe from './components/ModalRecipe'
+import NavbarIndex from './components/NavbarIndex';
+import Carousell from './components/Carousel'
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NavbarIndex/>
+      <div>
+        <link type="style-sheet" href=""></link>
+        <Carousell/>
+      </div>
       
-      <Blog/>
     </div>
   );
 }

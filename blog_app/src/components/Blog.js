@@ -3,6 +3,7 @@ import axios from 'axios';
 import Card from './Card'
 import SearchRecipe from './SearchRecipe'
 import ModalRecipe from './ModalRecipe'
+import Navbar from './Navbar';
 
 function Blog (){
   const URL = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s='
@@ -36,8 +37,10 @@ function Blog (){
   }
 
       return (
+        <div className="Blog">
+          <Navbar/>
         <div className="container">
-          <h1 className="mt-5">Las mejores bebidas,<br></br>aquí las tenemos</h1>
+          <h1 className="mt-5 justify-content-center">Las mejores bebidas,<br></br>aquí las tenemos</h1>
           <div className="row justify-content-center">
             <SearchRecipe
               find={findRecipe}
@@ -70,6 +73,7 @@ function Blog (){
             drink={currentDrink}
             />
           
+        </div>
         </div>
       )
       

@@ -14,7 +14,7 @@ function Navbar() {
                     <a className="nav-link" href="/">Favoritos</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/">Mi cuenta</a>
+                    <a className="nav-link nav-active" href="/">Hola Emoxito bebé</a>
                 </li>
             </ul>
         </nav>

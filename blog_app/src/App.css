@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.Blog {
+  text-align: center;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -94,6 +98,10 @@ nav, h1, .modal-body {
   background-color: #f8dc88 !important;
 }
 
+.nav-active{
+  color: #f76a8c;
+}
+
 /* Modal */
 
 .modal-top{
@@ -110,4 +118,27 @@ nav, h1, .modal-body {
 
 .no-display{
   display: none;
+}
+
+/* Uriel */
+#cennter{
+margin-left: 7rem;
+}
+#center{
+  margin-left: 7rem;
+  margin-top: 1rem;
+  color:white;
+}
+#header{
+  background-color: #ccf0e1;
+  color: #f76a8c;
+}
+#fondo{
+  background-image: url(./images/tropical_coctel.jpg);
+}
+#foot{
+  background-color: #b6b5bb;
+}
+image{
+  width: 5rem;
 }

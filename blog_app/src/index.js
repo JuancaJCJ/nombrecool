@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Blog from './components/Blog';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={App}/>
+      <Route path="/Blog" exact component={Blog}/>
+    </Switch>
+   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
